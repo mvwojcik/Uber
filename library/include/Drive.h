@@ -21,11 +21,12 @@ using namespace std;
 
 class Drive {
 private:
-    double price;
+    float price;
     boost::posix_time::ptime beginDate;
     boost::posix_time::ptime endDate;
     Client_ptr client;
     Driver_ptr driver;
+    bool ifFinished;
 public:
     Drive(Driver_ptr,Client_ptr);
     float conductPrice();
