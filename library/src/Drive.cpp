@@ -63,3 +63,7 @@ void Drive::finishRide() {
     this->endDate = boost::posix_time::second_clock::local_time();
     this->ifFinished = true;
 }
+
+bool Drive::isIfFinished() {
+    return this->ifFinished;
+}

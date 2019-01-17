@@ -46,10 +46,10 @@ RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pobi/CLionProjects/uberFresh/uberek
+CMAKE_SOURCE_DIR = /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include program/CMakeFiles/Program.dir/depend.make
@@ -62,159 +62,159 @@ include program/CMakeFiles/Program.dir/flags.make
 
 program/CMakeFiles/Program.dir/src/main.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../program/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object program/CMakeFiles/Program.dir/src/main.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/program/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object program/CMakeFiles/Program.dir/src/main.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/program/src/main.cpp
 
 program/CMakeFiles/Program.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/src/main.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/program/src/main.cpp > CMakeFiles/Program.dir/src/main.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/program/src/main.cpp > CMakeFiles/Program.dir/src/main.cpp.i
 
 program/CMakeFiles/Program.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/src/main.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/program/src/main.cpp -o CMakeFiles/Program.dir/src/main.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/program/src/main.cpp -o CMakeFiles/Program.dir/src/main.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/exception.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/exception.cpp.o: ../library/src/exception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/exception.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/exception.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/exception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/exception.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/exception.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/exception.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/exception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/exception.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/exception.cpp > CMakeFiles/Program.dir/__/library/src/exception.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/exception.cpp > CMakeFiles/Program.dir/__/library/src/exception.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/exception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/exception.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/exception.cpp -o CMakeFiles/Program.dir/__/library/src/exception.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/exception.cpp -o CMakeFiles/Program.dir/__/library/src/exception.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/clientexception.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/clientexception.cpp.o: ../library/src/clientexception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/clientexception.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/clientexception.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/clientexception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/clientexception.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/clientexception.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientexception.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/clientexception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/clientexception.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/clientexception.cpp > CMakeFiles/Program.dir/__/library/src/clientexception.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientexception.cpp > CMakeFiles/Program.dir/__/library/src/clientexception.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/clientexception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/clientexception.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/clientexception.cpp -o CMakeFiles/Program.dir/__/library/src/clientexception.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientexception.cpp -o CMakeFiles/Program.dir/__/library/src/clientexception.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/driveexception.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/driveexception.cpp.o: ../library/src/driveexception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/driveexception.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/driveexception.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/driveexception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/driveexception.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/driveexception.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driveexception.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/driveexception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/driveexception.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/driveexception.cpp > CMakeFiles/Program.dir/__/library/src/driveexception.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driveexception.cpp > CMakeFiles/Program.dir/__/library/src/driveexception.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/driveexception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/driveexception.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/driveexception.cpp -o CMakeFiles/Program.dir/__/library/src/driveexception.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driveexception.cpp -o CMakeFiles/Program.dir/__/library/src/driveexception.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/driverexception.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/driverexception.cpp.o: ../library/src/driverexception.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/driverexception.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/driverexception.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/driverexception.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/driverexception.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/driverexception.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driverexception.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/driverexception.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/driverexception.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/driverexception.cpp > CMakeFiles/Program.dir/__/library/src/driverexception.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driverexception.cpp > CMakeFiles/Program.dir/__/library/src/driverexception.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/driverexception.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/driverexception.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/driverexception.cpp -o CMakeFiles/Program.dir/__/library/src/driverexception.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driverexception.cpp -o CMakeFiles/Program.dir/__/library/src/driverexception.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/repository.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/repository.cpp.o: ../library/src/repository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/repository.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/repository.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/repository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/repository.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/repository.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/repository.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/repository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/repository.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/repository.cpp > CMakeFiles/Program.dir/__/library/src/repository.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/repository.cpp > CMakeFiles/Program.dir/__/library/src/repository.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/repository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/repository.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/repository.cpp -o CMakeFiles/Program.dir/__/library/src/repository.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/repository.cpp -o CMakeFiles/Program.dir/__/library/src/repository.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.o: ../library/src/drivesrepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/drivesrepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/drivesrepository.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/drivesrepository.cpp > CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/drivesrepository.cpp > CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/drivesrepository.cpp -o CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/drivesrepository.cpp -o CMakeFiles/Program.dir/__/library/src/drivesrepository.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.o: ../library/src/clientsrepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/clientsrepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientsrepository.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/clientsrepository.cpp > CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientsrepository.cpp > CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/clientsrepository.cpp -o CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientsrepository.cpp -o CMakeFiles/Program.dir/__/library/src/clientsrepository.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.o: ../library/src/driversrepository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/driversrepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driversrepository.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/driversrepository.cpp > CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driversrepository.cpp > CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/driversrepository.cpp -o CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driversrepository.cpp -o CMakeFiles/Program.dir/__/library/src/driversrepository.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.o: ../library/src/driversmanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/driversmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driversmanager.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/driversmanager.cpp > CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driversmanager.cpp > CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/driversmanager.cpp -o CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driversmanager.cpp -o CMakeFiles/Program.dir/__/library/src/driversmanager.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.o: ../library/src/drivesmanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/drivesmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/drivesmanager.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/drivesmanager.cpp > CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/drivesmanager.cpp > CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/drivesmanager.cpp -o CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/drivesmanager.cpp -o CMakeFiles/Program.dir/__/library/src/drivesmanager.cpp.s
 
 program/CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.o: program/CMakeFiles/Program.dir/flags.make
 program/CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.o: ../library/src/clientsmanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.o"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.o -c /home/pobi/CLionProjects/uberFresh/uberek/library/src/clientsmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object program/CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.o"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.o -c /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientsmanager.cpp
 
 program/CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.i"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/uberek/library/src/clientsmanager.cpp > CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.i
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientsmanager.cpp > CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.i
 
 program/CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.s"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/uberek/library/src/clientsmanager.cpp -o CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.s
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientsmanager.cpp -o CMakeFiles/Program.dir/__/library/src/clientsmanager.cpp.s
 
 # Object files for target Program
 Program_OBJECTS = \
@@ -249,8 +249,8 @@ program/Program: program/CMakeFiles/Program.dir/__/library/src/clientsmanager.cp
 program/Program: program/CMakeFiles/Program.dir/build.make
 program/Program: library/libLibrary.a
 program/Program: program/CMakeFiles/Program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Program"
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Program.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Program"
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Program.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 program/CMakeFiles/Program.dir/build: program/Program
@@ -258,10 +258,10 @@ program/CMakeFiles/Program.dir/build: program/Program
 .PHONY : program/CMakeFiles/Program.dir/build
 
 program/CMakeFiles/Program.dir/clean:
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program && $(CMAKE_COMMAND) -P CMakeFiles/Program.dir/cmake_clean.cmake
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program && $(CMAKE_COMMAND) -P CMakeFiles/Program.dir/cmake_clean.cmake
 .PHONY : program/CMakeFiles/Program.dir/clean
 
 program/CMakeFiles/Program.dir/depend:
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pobi/CLionProjects/uberFresh/uberek /home/pobi/CLionProjects/uberFresh/uberek/program /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/CMakeFiles/Program.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/program /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/CMakeFiles/Program.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : program/CMakeFiles/Program.dir/depend
 

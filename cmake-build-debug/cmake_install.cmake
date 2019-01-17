@@ -1,4 +1,4 @@
-# Install script for directory: /home/pobi/CLionProjects/uberFresh/uberek
+# Install script for directory: /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/library/cmake_install.cmake")
-  include("/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/cmake_install.cmake")
+  include("/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/library/cmake_install.cmake")
+  include("/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -37,7 +37,7 @@ BOOST_AUTO_TEST_SUITE(DriveSuite)
 
     BOOST_AUTO_TEST_CASE(Vehicle_PriceTesting) {
         Client_ptr client1(new Client("Mati"));
-        Vehicle_ptr vehicle1(new Transporter(4, 1600, "JP4220"));
+        Vehicle_ptr vehicle1(new Transporter(4, 1600, "JA4220"));
         Driver_ptr driver1(new Driver("Cieciu", vehicle1));
         Drive_ptr drive1(new Drive(driver1, client1));
         drive1->finishRide();

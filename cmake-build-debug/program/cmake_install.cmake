@@ -1,4 +1,4 @@
-# Install script for directory: /home/pobi/CLionProjects/uberFresh/uberek/program
+# Install script for directory: /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/program
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

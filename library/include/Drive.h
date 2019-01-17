@@ -34,6 +34,7 @@ public:
     string driveInfo();
     Client_ptr getClient();
     Driver_ptr getDriver();
+    bool isIfFinished();
     ~Drive()=default;
 
 };

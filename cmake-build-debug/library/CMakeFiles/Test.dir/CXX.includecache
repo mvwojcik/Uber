@@ -18,6 +18,12 @@ memory
 memory
 -
 
+../library/include/DailyCars.h
+Vehicle.h
+../library/include/Vehicle.h
+iostream
+-
+
 ../library/include/Drive.h
 boost/date_time/posix_time/posix_time.hpp
 -
@@ -147,4 +153,28 @@ drivesmanager.h
 /home/pobi/CLionProjects/uberFresh/uberek/library/test/drivesmanager.h
 driveexception.h
 /home/pobi/CLionProjects/uberFresh/uberek/library/test/driveexception.h
+
+/home/pobi/CLionProjects/uberFresh/uberek/library/test/DriveTest.cpp
+boost/test/unit_test.hpp
+-
+Client.h
+-
+Limousine.h
+-
+Transporter.h
+-
+DailyCars.h
+-
+Vehicle.h
+-
+Drive.h
+-
+clientsmanager.h
+-
+Driver.h
+-
+chrono
+-
+thread
+-
 

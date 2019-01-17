@@ -84,8 +84,8 @@ BOOST_AUTO_TEST_SUITE(ClientSuite)
         Client_ptr client4(new Client("Cham"));
 
         Vehicle_ptr vehicle1(new Limousine(4, 200, "VK23455"));
-        Vehicle_ptr vehicle2(new Transporter(4, 100, "JP4270"));
-        Vehicle_ptr vehicle3(new Transporter(4, 120, "JP4220"));
+        Vehicle_ptr vehicle2(new Transporter(4, 100, "JA4270"));
+        Vehicle_ptr vehicle3(new Transporter(4, 120, "JA4220"));
         Vehicle_ptr vehicle4(new Transporter(5, 140, "JP4290"));
 
         Driver_ptr driver0(new Driver("Jas", vehicle1));
@@ -97,15 +97,15 @@ BOOST_AUTO_TEST_SUITE(ClientSuite)
         auto *drivers = new DriversManager();
         auto *drives = new DrivesManager();
 
-        clients->addClient(client1);
-        clients->addClient(client2);
-        clients->addClient(client3);
-        clients->addClient(client4);
+        BOOST_CHECK_NO_THROW(clients->addClient(client1));
+        BOOST_CHECK_NO_THROW(clients->addClient(client2));
+        BOOST_CHECK_NO_THROW(clients->addClient(client3));
+        BOOST_CHECK_NO_THROW(clients->addClient(client4));
 
-        drivers->addDriver(driver0);
-        drivers->addDriver(driver1);
-        drivers->addDriver(driver2);
-        drivers->addDriver(driver3);
+        BOOST_CHECK_NO_THROW(drivers->addDriver(driver0));
+        BOOST_CHECK_NO_THROW(drivers->addDriver(driver1));
+        BOOST_CHECK_NO_THROW(drivers->addDriver(driver2));
+        BOOST_CHECK_NO_THROW(drivers->addDriver(driver3));
 
         BOOST_CHECK_EQUAL(drives->addDrive(client1, driver0), true);
         BOOST_CHECK_EQUAL(drives->addDrive(client2, driver1), true);
@@ -115,7 +115,14 @@ BOOST_AUTO_TEST_SUITE(ClientSuite)
         BOOST_CHECK_THROW(drives->addDrive(client2, driver3), DriveException);
         BOOST_CHECK_THROW(drives->addDrive(client2, nullptr), DriveException);
         Drive_ptr drive1 = drives->find(client2);
-        BOOST_CHECK_EQUAL(drives->removerDrive(drive1), true);
+        BOOST_CHECK_EQUAL(drives->removerDrive(drive1),true);
+        BOOST_CHECK_THROW(drives->removerDrive(drive1),DriveException);
+        BOOST_CHECK_NO_THROW(drives->endOfDrive(client1));
+        BOOST_CHECK_CLOSE(drives->getPriceForFinishedRide(client1),5.00,0.001);
+        BOOST_CHECK_THROW(drives->getPriceForFinishedRide(client3),DriveException);
+        BOOST_CHECK_NO_THROW(drives->removerDrive(drives->find(client1)));
+        BOOST_CHECK_THROW(drives->getPriceForFinishedRide(client1),DriveException);
+
 
         delete clients;
         delete drivers;

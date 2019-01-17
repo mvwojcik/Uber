@@ -8,24 +8,24 @@
 		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\program\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program"/>
+				<Option working_dir="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Program">
-				<Option output="/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Program" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program"/>
+				<Option output="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pobi/CLionProjects/uberFresh/uberek/program/include"/>
-					<Add directory="/home/pobi/CLionProjects/uberFresh/uberek/library/include"/>
+					<Add directory="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/program/include"/>
+					<Add directory="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -36,21 +36,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Program/fast">
-				<Option output="/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Program" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program"/>
+				<Option output="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pobi/CLionProjects/uberFresh/uberek/program/include"/>
-					<Add directory="/home/pobi/CLionProjects/uberFresh/uberek/library/include"/>
+					<Add directory="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/program/include"/>
+					<Add directory="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -61,89 +61,89 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/clientexception.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/clientexception.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/clientsmanager.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/clientsmanager.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/clientsrepository.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/clientsrepository.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/driveexception.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/driveexception.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/driverexception.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/driverexception.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/driversmanager.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/driversmanager.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/driversrepository.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/driversrepository.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/drivesmanager.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/drivesmanager.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/drivesrepository.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/drivesrepository.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/exception.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/exception.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/include/repository.h">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/include/repository.h">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/clientexception.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientexception.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/clientsmanager.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientsmanager.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/clientsrepository.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/clientsrepository.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/driveexception.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driveexception.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/driverexception.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driverexception.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/driversmanager.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driversmanager.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/driversrepository.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/driversrepository.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/drivesmanager.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/drivesmanager.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/drivesrepository.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/drivesrepository.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/exception.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/exception.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/src/repository.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/src/repository.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/program/src/main.cpp">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/program/src/main.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/CMakeLists.txt">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/library/CMakeLists.txt">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\library\"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/uberFresh/uberek/program/CMakeLists.txt">
+		<Unit filename="/home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/program/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\program\"/>
 		</Unit>
 	</Project>

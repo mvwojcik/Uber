@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/pobi/CLionProjects/uberFresh/uberek
-# Build directory: /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug
+# Source directory: /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek
+# Build directory: /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

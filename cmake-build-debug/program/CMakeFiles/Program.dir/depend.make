@@ -93,9 +93,12 @@ program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/Transporter.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/Vehicle.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/clientsmanager.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/clientsrepository.h
+program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/driveexception.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/driversmanager.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/driversrepository.h
+program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/drivesmanager.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/drivesrepository.h
+program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/exception.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../library/include/repository.h
 program/CMakeFiles/Program.dir/src/main.cpp.o: ../program/src/main.cpp
 

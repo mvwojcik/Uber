@@ -46,10 +46,10 @@ RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pobi/CLionProjects/uberFresh/uberek
+CMAKE_SOURCE_DIR = /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug
 
 # Utility rule file for check.
 
@@ -70,10 +70,10 @@ library/CMakeFiles/check.dir/build: check
 .PHONY : library/CMakeFiles/check.dir/build
 
 library/CMakeFiles/check.dir/clean:
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/check.dir/clean
 
 library/CMakeFiles/check.dir/depend:
-	cd /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pobi/CLionProjects/uberFresh/uberek /home/pobi/CLionProjects/uberFresh/uberek/library /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/library /home/pobi/CLionProjects/uberFresh/uberek/cmake-build-debug/library/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/library /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/library /home/pobi/CLionProjects/uberFresh/UberRelease/trunk/uberek/cmake-build-debug/library/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/check.dir/depend
 
